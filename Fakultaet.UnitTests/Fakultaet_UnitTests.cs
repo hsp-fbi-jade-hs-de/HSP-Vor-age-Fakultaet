@@ -12,9 +12,9 @@ namespace Fakultaet.UnitTests
         {
             Fakultaet prg = new Fakultaet();
 
-            var fakultaet = prg.Fakultaet_n(12);
+            var fakultaet = prg.Fakultaet_n(3);
 
-            Assert.AreEqual(479001600, fakultaet);
+            Assert.AreEqual(6, fakultaet);
 
         }
     }
