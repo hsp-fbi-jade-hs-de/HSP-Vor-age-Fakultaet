@@ -17,5 +17,16 @@ namespace Fakultaet.UnitTests
             Assert.AreEqual(6, fakultaet);
 
         }
+
+        [TestMethod]
+        public void Fakultaet_Test2()
+        {
+            Fakultaet prg = new Fakultaet();
+
+            var fakultaet = prg.Fakultaet_n(5);
+
+            Assert.AreEqual(120, fakultaet);
+
+        }
     }
 }
