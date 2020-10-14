@@ -22,7 +22,7 @@ namespace Fakultaet
         {
             Fakultaet prg = new Fakultaet();
 
-            Console.WriteLine("Zu elcher Zahl möchtest du die Fakultaet ausgeben?.");
+            Console.WriteLine("Zu welcher Zahl möchtest du die Fakultaet ausgeben?");
             Console.Write("Eingabe: ");
             int n = Convert.ToInt32(Console.ReadLine());
             int fakultaet = prg.Fakultaet_n(n);
